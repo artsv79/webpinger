@@ -1,0 +1,14 @@
+hosts:
+  - yahoo.com
+  - google.com
+icmp:
+  delay: 2000
+  command: ping -c 1
+tcp:
+  delay: 5000
+  timeout: 5000
+tracert:
+  delay: 5000
+  command: traceroute
+report:
+  postUrl:
